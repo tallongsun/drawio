@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T05:38:23.823Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="wuyrnGrJHx21d4MSMm1s" version="14.6.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-17T05:45:54.414Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="hkVxHVwyrG6T-eQmLfAp" version="14.6.13" type="github" pages="2">
   <diagram id="LBiFUnMXdWwO1V9JbU9v" name="Page-1">
     <mxGraphModel dx="2840" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -595,8 +595,14 @@
         <mxCell id="JGeYC-hvTTd_UBukhtem-53" value="ArpEp&lt;br&gt;(arp)" style="html=1;fontColor=#FF3333;align=center;" vertex="1" parent="JGeYC-hvTTd_UBukhtem-1">
           <mxGeometry x="490" y="130" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="JGeYC-hvTTd_UBukhtem-54" value="Write ethernet packet to dev file&lt;br&gt;Read ethernet packet from dev file" style="text;html=1;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#FF3333;fillColor=#B9E0A5;" vertex="1" parent="JGeYC-hvTTd_UBukhtem-1">
-          <mxGeometry x="-25" y="520" width="210" height="70" as="geometry" />
+        <mxCell id="JGeYC-hvTTd_UBukhtem-54" value="Write ethernet packet to tun/tap device&lt;br&gt;Read ethernet packet from tun/tap device" style="text;html=1;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#FF3333;fillColor=#B9E0A5;" vertex="1" parent="JGeYC-hvTTd_UBukhtem-1">
+          <mxGeometry x="-50" y="515" width="235" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JGeYC-hvTTd_UBukhtem-55" value="Write ip packet to channel&lt;br&gt;inject ip packet to channelEp" style="text;html=1;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#FF3333;fillColor=#FFFF99;" vertex="1" parent="JGeYC-hvTTd_UBukhtem-1">
+          <mxGeometry x="600" y="515" width="235" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JGeYC-hvTTd_UBukhtem-56" value="Write ip packet to LoopbackEp&lt;br&gt;deliver ip packet to itself" style="text;html=1;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#FF3333;fillColor=#99CCFF;" vertex="1" parent="JGeYC-hvTTd_UBukhtem-1">
+          <mxGeometry x="255" y="515" width="235" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
