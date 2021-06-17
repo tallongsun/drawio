@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T05:28:00.895Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="iYRPgzrCc9p3dfc7qLsI" version="14.6.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-17T05:38:23.823Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="wuyrnGrJHx21d4MSMm1s" version="14.6.13" type="github" pages="2">
   <diagram id="LBiFUnMXdWwO1V9JbU9v" name="Page-1">
     <mxGraphModel dx="2840" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -583,7 +583,7 @@
             <mxPoint x="315" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JGeYC-hvTTd_UBukhtem-50" value="console log" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontColor=#FF3333;align=center;fillColor=#FFFF99;" vertex="1" parent="JGeYC-hvTTd_UBukhtem-1">
+        <mxCell id="JGeYC-hvTTd_UBukhtem-50" value="console log&lt;br&gt;(send/recv)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontColor=#FF3333;align=center;fillColor=#FFFF99;" vertex="1" parent="JGeYC-hvTTd_UBukhtem-1">
           <mxGeometry x="480" y="260" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="JGeYC-hvTTd_UBukhtem-51" value="" style="endArrow=classic;startArrow=classic;html=1;fontColor=#FF3333;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="JGeYC-hvTTd_UBukhtem-1" source="JGeYC-hvTTd_UBukhtem-50" target="JGeYC-hvTTd_UBukhtem-40">
@@ -594,6 +594,9 @@
         </mxCell>
         <mxCell id="JGeYC-hvTTd_UBukhtem-53" value="ArpEp&lt;br&gt;(arp)" style="html=1;fontColor=#FF3333;align=center;" vertex="1" parent="JGeYC-hvTTd_UBukhtem-1">
           <mxGeometry x="490" y="130" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JGeYC-hvTTd_UBukhtem-54" value="Write ethernet packet to dev file&lt;br&gt;Read ethernet packet from dev file" style="text;html=1;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#FF3333;fillColor=#B9E0A5;" vertex="1" parent="JGeYC-hvTTd_UBukhtem-1">
+          <mxGeometry x="-25" y="520" width="210" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
