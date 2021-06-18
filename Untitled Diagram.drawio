@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-18T08:02:58.884Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="EltaVp_H66hk0I2BSJpW" version="14.6.13" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-06-18T08:08:59.304Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="ev31Wkh8nIaODEcZ583y" version="14.6.13" type="github" pages="3">
   <diagram id="LBiFUnMXdWwO1V9JbU9v" name="Page-1">
     <mxGraphModel dx="2840" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -651,10 +651,10 @@
             <mxPoint x="525" y="-120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LzHgd6_jB2sraCVPXON8-18" value="FdbasedEp&lt;br&gt;" style="html=1;fontColor=#FF3333;align=center;labelBackgroundColor=none;fillColor=#B9E0A5;" vertex="1" parent="LzHgd6_jB2sraCVPXON8-1">
+        <mxCell id="LzHgd6_jB2sraCVPXON8-18" value="FdbasedEp&lt;br&gt;" style="html=1;fontColor=#FF3333;align=center;labelBackgroundColor=none;fillColor=#FFFFFF;" vertex="1" parent="LzHgd6_jB2sraCVPXON8-1">
           <mxGeometry x="110" y="320" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="LzHgd6_jB2sraCVPXON8-19" value="VNIC1&lt;br&gt;" style="html=1;fontColor=#FF3333;align=center;fillColor=#B9E0A5;" vertex="1" parent="LzHgd6_jB2sraCVPXON8-1">
+        <mxCell id="LzHgd6_jB2sraCVPXON8-19" value="VNIC1&lt;br&gt;" style="html=1;fontColor=#FF3333;align=center;fillColor=#FFFFFF;" vertex="1" parent="LzHgd6_jB2sraCVPXON8-1">
           <mxGeometry x="304" y="230" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="LzHgd6_jB2sraCVPXON8-20" value="write" style="endArrow=open;endFill=1;endSize=12;html=1;fontColor=#FF3333;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.364;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="LzHgd6_jB2sraCVPXON8-1" source="LzHgd6_jB2sraCVPXON8-2" target="LzHgd6_jB2sraCVPXON8-18">
@@ -788,6 +788,12 @@
             <mxPoint x="315" y="190" as="sourcePoint" />
             <mxPoint x="160.03999999999996" y="330" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="p9Egavr4HAxp42n3guiI-16" value="&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;routeTable:&lt;br&gt;0.0.0.0/0 &lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; text-align: center&quot;&gt;192.168.192.10&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;vnic1&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;p&gt;&lt;/p&gt;" style="html=1;fontColor=#FF3333;align=left;labelBackgroundColor=none;fillColor=#FFFFFF;" vertex="1" parent="LzHgd6_jB2sraCVPXON8-1">
+          <mxGeometry x="30" y="-10" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="p9Egavr4HAxp42n3guiI-17" value="&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;arpCache:&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;text-align: center&quot;&gt;192.168.192.10 &amp;lt;-&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 11px ; text-align: center&quot;&gt;0c:c4:7a:4c:c4:31&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;p&gt;&lt;/p&gt;" style="html=1;fontColor=#FF3333;align=left;labelBackgroundColor=none;fillColor=#FFFFFF;" vertex="1" parent="LzHgd6_jB2sraCVPXON8-1">
+          <mxGeometry x="30" y="130" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
