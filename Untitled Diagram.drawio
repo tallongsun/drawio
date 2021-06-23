@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-23T08:09:51.382Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="6T5etrf3K1jNdURnhX7u" version="14.6.13" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-06-23T08:23:54.232Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="bvqV8K21T48xOPBc4i93" version="14.6.13" type="github" pages="6">
   <diagram id="LBiFUnMXdWwO1V9JbU9v" name="class">
     <mxGraphModel dx="2840" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -321,16 +321,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="v9Gu7na8Y956DNMrtn8_-96" value="Sleeper" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-300" y="1540" width="290" height="320" as="geometry" />
+          <mxGeometry x="-390" y="1480" width="430" height="420" as="geometry" />
         </mxCell>
         <mxCell id="v9Gu7na8Y956DNMrtn8_-97" value="+ sharedList: *Waker&#xa;+ localList: *Waker&#xa;+ allWakers: *Waker (Notification,NewSegment)&#xa;+ waitingG: uintptr&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="v9Gu7na8Y956DNMrtn8_-96" vertex="1">
-          <mxGeometry y="26" width="290" height="234" as="geometry" />
+          <mxGeometry y="26" width="430" height="234" as="geometry" />
         </mxCell>
         <mxCell id="v9Gu7na8Y956DNMrtn8_-98" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="v9Gu7na8Y956DNMrtn8_-96" vertex="1">
-          <mxGeometry y="260" width="290" height="10" as="geometry" />
+          <mxGeometry y="260" width="430" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="v9Gu7na8Y956DNMrtn8_-99" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;+ Fetch()&lt;/pre&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#FF3333;" parent="v9Gu7na8Y956DNMrtn8_-96" vertex="1">
-          <mxGeometry y="270" width="290" height="50" as="geometry" />
+        <mxCell id="v9Gu7na8Y956DNMrtn8_-99" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;- enqueueAssertedWaker(w *Waker)&lt;/pre&gt;&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;font-size: 9.8pt&quot;&gt;  sharedList.pushFront(w)&lt;br&gt;  goready(&lt;/span&gt;waitingG) &lt;/pre&gt;&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;  waitingG = 0  &lt;/pre&gt;&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;br&gt;+ Fetch()&lt;/pre&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#FF3333;" parent="v9Gu7na8Y956DNMrtn8_-96" vertex="1">
+          <mxGeometry y="270" width="430" height="150" as="geometry" />
         </mxCell>
         <mxCell id="v9Gu7na8Y956DNMrtn8_-102" value="Queue" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="-990" y="1940" width="310" height="130" as="geometry" />
@@ -372,7 +372,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YKRUx6FXslUG9NIE0m19-1" value="Waker" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="110" y="1540" width="420" height="400" as="geometry" />
+          <mxGeometry x="110" y="1540" width="420" height="460" as="geometry" />
         </mxCell>
         <mxCell id="YKRUx6FXslUG9NIE0m19-2" value="+ s: *Sleeper &#xa;+ next: *Waker&#xa;+ allWakersNext: *Waker&#xa;+ id: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YKRUx6FXslUG9NIE0m19-1">
           <mxGeometry y="26" width="420" height="234" as="geometry" />
@@ -380,8 +380,8 @@
         <mxCell id="YKRUx6FXslUG9NIE0m19-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="YKRUx6FXslUG9NIE0m19-1">
           <mxGeometry y="260" width="420" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="YKRUx6FXslUG9NIE0m19-4" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;+ Assert()&lt;br&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;  add the new waker to the front of the shared list&lt;/pre&gt;&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;  s = &amp;amp;assertedSleeper&lt;/pre&gt;&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;  &lt;/pre&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#FF3333;" vertex="1" parent="YKRUx6FXslUG9NIE0m19-1">
-          <mxGeometry y="270" width="420" height="130" as="geometry" />
+        <mxCell id="YKRUx6FXslUG9NIE0m19-4" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;+ Assert()&lt;br&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;  s.enqueueAssertedWaker(w)&lt;/pre&gt;&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;  s = &amp;amp;assertedSleeper&lt;br&gt;+ Clear()&lt;/pre&gt;&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;  s = nil&lt;/pre&gt;&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;+ IsAsserted() &lt;/pre&gt;&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;  return s == &amp;amp; assertedSleeper &lt;/pre&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#FF3333;" vertex="1" parent="YKRUx6FXslUG9NIE0m19-1">
+          <mxGeometry y="270" width="420" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
