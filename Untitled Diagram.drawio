@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-25T06:22:05.174Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="f4XINPQxOWjV7VA7Zg1K" version="14.6.13" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-06-25T06:24:03.629Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="qtRg_6GPi7r2TJuYp0_N" version="14.6.13" type="github" pages="6">
   <diagram id="LBiFUnMXdWwO1V9JbU9v" name="class">
     <mxGraphModel dx="3667" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -392,7 +392,7 @@
         <mxCell id="YKRUx6FXslUG9NIE0m19-9" value="sender" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="-1247" y="2370" width="420" height="910" as="geometry" />
         </mxCell>
-        <mxCell id="YKRUx6FXslUG9NIE0m19-10" value="+ sndUna: uint32&#xa;+ sndNxt: unit32&#xa;+ sndWnd: unit32&#xa;+ writeList: segmentList&#xa;+ writeNext: *segment&#xa;&#xa;+ resendTimer: timer&#xa;+ rto: time.Duration&#xa;&#xa;+ sndCwnd: int&#xa;+ sndSsthresh: int&#xa;+ dupAckCount: int&#xa;+ fr:{active:bool, first:uint32, last:uint32}&#xa;&#xa;+ closed: bool&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YKRUx6FXslUG9NIE0m19-9">
+        <mxCell id="YKRUx6FXslUG9NIE0m19-10" value="+ sndUna: uint32&#xa;+ sndNxt: unit32&#xa;+ sndWnd: unit32&#xa;+ writeList: segmentList&#xa;+ writeNext: *segment&#xa;&#xa;+ resendTimer: timer&#xa;+ rto: time.Duration&#xa;&#xa;+ outstanding: int&#xa;+ sndCwnd: int&#xa;+ sndSsthresh: int&#xa;+ dupAckCount: int&#xa;+ fr:{active:bool, first:uint32, last:uint32}&#xa;&#xa;+ closed: bool&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YKRUx6FXslUG9NIE0m19-9">
           <mxGeometry y="26" width="420" height="234" as="geometry" />
         </mxCell>
         <mxCell id="YKRUx6FXslUG9NIE0m19-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="YKRUx6FXslUG9NIE0m19-9">
