@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-17T06:14:12.672Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="b8X8OY7hPMWabZX3pnE-" version="14.8.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-08-17T06:17:02.411Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="jWTziT7NyF26YExPZ_0y" version="14.8.0" type="github" pages="2">
   <diagram id="eseIqtM9uzE_S86qqE30" name="MCTS-4">
     <mxGraphModel dx="2013" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -150,7 +150,7 @@
         <mxCell id="-bhhcVucZITTCVd08iuX-20" value="MCTS搜索4次&lt;br&gt;第一次：黑色&lt;br&gt;第二次：红色&lt;br&gt;第三次：橙色&lt;br&gt;第四次：黄色" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="-bhhcVucZITTCVd08iuX-1">
           <mxGeometry x="-350" y="50" width="230" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="-bhhcVucZITTCVd08iuX-21" value="&lt;font color=&quot;#66cc00&quot;&gt;0,-1,0&lt;br&gt;0,0,0&lt;br&gt;1,0,0&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="-bhhcVucZITTCVd08iuX-1">
+        <mxCell id="-bhhcVucZITTCVd08iuX-21" value="&lt;font color=&quot;#9933ff&quot;&gt;0,-1,0&lt;br&gt;0,0,1&lt;br&gt;0,0,0&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="-bhhcVucZITTCVd08iuX-1">
           <mxGeometry x="540" y="650" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-bhhcVucZITTCVd08iuX-22" value="&lt;b&gt;0,0,0&lt;br&gt;0,0,0&lt;br&gt;0,0,0&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="-bhhcVucZITTCVd08iuX-1">
@@ -165,10 +165,10 @@
             <mxPoint x="40" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-bhhcVucZITTCVd08iuX-25" value="&lt;font color=&quot;#66cc00&quot;&gt;P(s,a) = 0.13&lt;br&gt;U(s,a) = C*P(s,a)*Sqrt(N(s)+1e-8) = 1.3e-5&lt;br&gt;Q(s,a) = V(s&#39;) =&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(102 , 204 , 0)&quot;&gt;0.00022326&lt;/span&gt;&lt;font color=&quot;#66cc00&quot;&gt;&lt;br&gt;&lt;b&gt;N(s,a) = 1&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(255 , 51 , 51)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-bhhcVucZITTCVd08iuX-1">
-          <mxGeometry x="510" y="490" width="356" height="80" as="geometry" />
+        <mxCell id="-bhhcVucZITTCVd08iuX-25" value="&lt;font color=&quot;#9933ff&quot;&gt;P(s,a) = 0.13&lt;br&gt;U(s,a) = C*P(s,a)*Sqrt(N(s)+1e-8) = 1.3e-5&lt;br&gt;Q(s,a) = V(s&#39;) =&amp;nbsp;0.00022326&lt;br&gt;&lt;b&gt;N(s,a) = 1&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(255 , 51 , 51)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-bhhcVucZITTCVd08iuX-1">
+          <mxGeometry x="488" y="540" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-bhhcVucZITTCVd08iuX-26" value="&lt;font color=&quot;#66cc00&quot;&gt;V(s&#39;) =&amp;nbsp;-0.00022326&lt;br&gt;N(s&#39;) = 0&lt;br&gt;Valid(s&#39;) = [1 0 1 1 1 1 0 1 1 0]&lt;br&gt;P(s&#39;) =&amp;nbsp;[0.1423827&amp;nbsp; 0.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;0.14319774 0.14265731 0.1429237&amp;nbsp; 0.14311624, 0.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;0.14281823 0.14290408 0.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ]&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-bhhcVucZITTCVd08iuX-1">
+        <mxCell id="-bhhcVucZITTCVd08iuX-26" value="&lt;font color=&quot;#b266ff&quot;&gt;V(s&#39;) =&amp;nbsp;-0.00022326&lt;br&gt;N(s&#39;) = 0&lt;br&gt;Valid(s&#39;) = [1 0 1 1 1 1 0 1 1 0]&lt;br&gt;P(s&#39;) =&amp;nbsp;[0.1423827&amp;nbsp; 0.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;0.14319774 0.14265731 0.1429237&amp;nbsp; 0.14311624, 0.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;0.14281823 0.14290408 0.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ]&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-bhhcVucZITTCVd08iuX-1">
           <mxGeometry x="620" y="640" width="350" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-bhhcVucZITTCVd08iuX-27" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="-bhhcVucZITTCVd08iuX-1" source="-bhhcVucZITTCVd08iuX-12" target="-bhhcVucZITTCVd08iuX-21">
@@ -187,10 +187,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-bhhcVucZITTCVd08iuX-30" value="&lt;font color=&quot;#00cccc&quot;&gt;P(s,a) = 0.125&lt;br&gt;U(s,a) = C*P(s,a)*Sqrt(N(s)+1e-8) = 0.125&lt;br&gt;Q(s,a) = V(s&#39;) = -0.00027225&lt;br&gt;&lt;b&gt;N(s,a) = 1&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(255 , 51 , 51)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-bhhcVucZITTCVd08iuX-1">
-          <mxGeometry x="132" y="490" width="356" height="80" as="geometry" />
+          <mxGeometry x="230" y="540" width="248" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-bhhcVucZITTCVd08iuX-31" value="&lt;font color=&quot;#00cccc&quot;&gt;V(s&#39;) = 0.00027225&lt;br&gt;N(s&#39;) = 0&lt;br&gt;Valid(s&#39;) = [1 0 0 1 1 1 1 1 1 0]&lt;br&gt;P(s&#39;) =&amp;nbsp;[0.1424374&amp;nbsp; 0.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;0.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;0.14244898 0.14317456 0.14293754, 0.14312473 0.14297755 0.14289925 0.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ]&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-bhhcVucZITTCVd08iuX-1">
           <mxGeometry x="-10" y="640" width="350" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-bhhcVucZITTCVd08iuX-32" value="&lt;font color=&quot;#66cc00&quot;&gt;0,-1,0&lt;br&gt;0,0,0&lt;br&gt;1,0,0&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="-bhhcVucZITTCVd08iuX-1">
+          <mxGeometry x="990" y="650" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-bhhcVucZITTCVd08iuX-33" value="&lt;font color=&quot;#66cc00&quot;&gt;P(s,a) = 0.13&lt;br&gt;U(s,a) = C*P(s,a)*Sqrt(N(s)+1e-8) = 1.3e-5&lt;br&gt;Q(s,a) = V(s&#39;) =&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(102 , 204 , 0)&quot;&gt;0.00022326&lt;/span&gt;&lt;font color=&quot;#66cc00&quot;&gt;&lt;br&gt;&lt;b&gt;N(s,a) = 1&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(255 , 51 , 51)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-bhhcVucZITTCVd08iuX-1">
+          <mxGeometry x="744" y="540" width="246" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-bhhcVucZITTCVd08iuX-34" value="&lt;font color=&quot;#66cc00&quot;&gt;V(s&#39;) =&amp;nbsp;-0.00022326&lt;br&gt;N(s&#39;) = 0&lt;br&gt;Valid(s&#39;) = [1 0 1 1 1 1 0 1 1 0]&lt;br&gt;P(s&#39;) =&amp;nbsp;[0.1423827&amp;nbsp; 0.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;0.14319774 0.14265731 0.1429237&amp;nbsp; 0.14311624, 0.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;0.14281823 0.14290408 0.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ]&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-bhhcVucZITTCVd08iuX-1">
+          <mxGeometry x="1070" y="640" width="350" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-bhhcVucZITTCVd08iuX-35" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="-bhhcVucZITTCVd08iuX-1" source="-bhhcVucZITTCVd08iuX-12" target="-bhhcVucZITTCVd08iuX-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="575" y="470" as="sourcePoint" />
+            <mxPoint x="575" y="660" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
