@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-18T06:16:03.623Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="pyTHm35AhbLPahSXNisX" version="14.8.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-08-18T06:17:44.732Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="HfKM_jiYcqcs7XNkuzqH" version="14.8.0" type="github" pages="6">
   <diagram id="eseIqtM9uzE_S86qqE30" name="MCTS-4-Step1">
     <mxGraphModel dx="2013" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1251,7 +1251,7 @@
         <mxCell id="nQkfFOA_M33FvJbUMVf--12" value="&lt;b&gt;π(s) =[0, 0, 1, 0, 0, 0, 0, 0, 0, 0]&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nQkfFOA_M33FvJbUMVf--1">
           <mxGeometry x="440" y="120" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nQkfFOA_M33FvJbUMVf--13" value="MCTS搜索4次" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="nQkfFOA_M33FvJbUMVf--1">
+        <mxCell id="nQkfFOA_M33FvJbUMVf--13" value="MCTS搜索4次&lt;br&gt;注意：" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="nQkfFOA_M33FvJbUMVf--1">
           <mxGeometry x="-40" y="115" width="230" height="70" as="geometry" />
         </mxCell>
         <mxCell id="nQkfFOA_M33FvJbUMVf--14" value="&lt;b&gt;0,0,0&lt;br&gt;0,0,0&lt;br&gt;0,0,0&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="nQkfFOA_M33FvJbUMVf--1">
@@ -1314,6 +1314,15 @@
         </mxCell>
         <mxCell id="nQkfFOA_M33FvJbUMVf--96" value="N(s) = 3&lt;span style=&quot;color: rgb(255 , 51 , 51)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nQkfFOA_M33FvJbUMVf--1">
           <mxGeometry x="306" y="95" width="58" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nQkfFOA_M33FvJbUMVf--97" value="curPlayer=-1&lt;span style=&quot;color: rgb(255 , 51 , 51)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nQkfFOA_M33FvJbUMVf--1">
+          <mxGeometry x="290" y="370" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nQkfFOA_M33FvJbUMVf--98" value="curPlayer=1&lt;span style=&quot;color: rgb(255 , 51 , 51)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nQkfFOA_M33FvJbUMVf--1">
+          <mxGeometry x="340" y="620" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nQkfFOA_M33FvJbUMVf--99" value="curPlayer=1&lt;span style=&quot;color: rgb(255 , 51 , 51)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nQkfFOA_M33FvJbUMVf--1">
+          <mxGeometry x="380" y="95" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
