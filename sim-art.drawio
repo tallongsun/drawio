@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-08T13:56:39.094Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="Dkm1wkSy0dvcjaLf4L8m" version="15.8.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-08T14:00:35.661Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="m4Fevnh8GCMgXnJ5qn7k" version="15.8.2" type="github" pages="3">
   <diagram id="R-t3NbbQ8zUbG_X-md13" name="Overrall">
     <mxGraphModel dx="1395" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -316,6 +316,21 @@
               <mxPoint x="400" y="80" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="E3sp2dhvFYNoh5xb-TAY-1" value="raw &lt;br&gt;order" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.documents;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="295" y="217" width="22.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E3sp2dhvFYNoh5xb-TAY-2" value="raw &lt;br&gt;rider" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.documents;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="323.75" y="217" width="22.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E3sp2dhvFYNoh5xb-TAY-3" value="rider &lt;br&gt;on-off" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.documents;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="352.5" y="217" width="22.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_b2zhDu9qjkopMEc7GBI-4" value="rider&lt;br&gt;stat" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.documents;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="40" y="85" width="22.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_b2zhDu9qjkopMEc7GBI-5" value="restaurant&lt;br&gt;stat" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.documents;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="82.5" y="85" width="22.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
