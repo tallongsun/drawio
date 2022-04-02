@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-02T07:05:34.979Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="Tl6nxqFJV5abCuHh9DgL" version="17.2.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-02T08:21:20.395Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="8J3OPljuopba7q0yBMCJ" version="17.2.5" type="github" pages="2">
   <diagram id="Pxa_HsvwUJAu8bl7tLUJ" name="Page-1">
     <mxGraphModel dx="2013" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -614,8 +614,11 @@
         <mxCell id="BQIyA2aNrXh1K0fO1Abx-250" value="Back" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;fillColor=#E6E6E6;strokeColor=none;align=center;fontSize=14;fontColor=#FFFFFF;" vertex="1" parent="BQIyA2aNrXh1K0fO1Abx-119">
           <mxGeometry x="400" y="1050" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BQIyA2aNrXh1K0fO1Abx-251" value="&lt;span style=&quot;font-size: 20px&quot;&gt;&lt;b&gt;Rule&lt;/b&gt;&lt;/span&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;fontSize=14;" vertex="1" parent="BQIyA2aNrXh1K0fO1Abx-119">
-          <mxGeometry x="11" y="770" width="810" height="306" as="geometry" />
+        <mxCell id="BQIyA2aNrXh1K0fO1Abx-251" value="&lt;span style=&quot;font-size: 20px&quot;&gt;&lt;b&gt;Pricing Rule&lt;/b&gt;&lt;/span&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=top;align=left;spacing=20;fontSize=14;" vertex="1" parent="BQIyA2aNrXh1K0fO1Abx-119">
+          <mxGeometry x="11" y="770" width="810" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="BQIyA2aNrXh1K0fO1Abx-270" value="Income.revenue = Income.FirstOrderWage.THB * Income.FirstOrderWage.Quantity&lt;br&gt;&amp;nbsp; + Income.SecondOrderWage.THB * Income.SecondOrderWage.Quantity&lt;br&gt;&amp;nbsp; + Income.ThirdOrderWage.THB * Income.ThirdOrderWage.Quantity;&lt;br&gt;when &lt;br&gt;&amp;nbsp; Income.Counter &amp;lt; Income.AdditionalWage.Len()&amp;nbsp;&lt;br&gt;then&lt;br&gt;&amp;nbsp; Income.revenue += Income.AdditionalWage[Income.Counter].THB * Income.AdditionalWage[Income.Counter&lt;br&gt;].Quantity;&lt;br&gt;&amp;nbsp; Income.Counter = Income.Counter + 1;&lt;br&gt;&amp;nbsp;&amp;nbsp;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#999999;strokeWidth=1;fillColor=#FFFFFF;fontColor=#6C767D;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;fontSize=14;spacing=10;labelBackgroundColor=default;" vertex="1" parent="BQIyA2aNrXh1K0fO1Abx-119">
+          <mxGeometry x="30" y="825" width="760" height="195" as="geometry" />
         </mxCell>
         <mxCell id="BQIyA2aNrXh1K0fO1Abx-186" value="" style="html=1;shadow=0;dashed=0;fillColor=#F8F9FA;strokeColor=none;fontSize=16;fontColor=#181819;align=left;spacing=15;" vertex="1" parent="1">
           <mxGeometry x="90" y="755" width="800" height="50" as="geometry" />
