@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T06:44:14.701Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="EARBbHr0edbcug4S9jfZ" version="17.4.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-13T06:46:13.687Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="XP-o5JZbW8cZ3yQzFXaF" version="17.4.0" type="github" pages="4">
   <diagram id="Pxa_HsvwUJAu8bl7tLUJ" name="Page-1">
     <mxGraphModel dx="2013" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -650,7 +650,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rCwaYMpiR0Ny90pCLROS" name="osrm-traffic">
-    <mxGraphModel dx="2013" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2253" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -761,15 +761,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="H15oAr5Qgit-XZydFjF4-37" value="For all the rider logs in a week" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="900" y="530" width="100" height="60" as="geometry" />
+          <mxGeometry x="900" y="610" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="H15oAr5Qgit-XZydFjF4-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="H15oAr5Qgit-XZydFjF4-38" target="H15oAr5Qgit-XZydFjF4-37">
+        <mxCell id="H15oAr5Qgit-XZydFjF4-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;entryX=1;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="H15oAr5Qgit-XZydFjF4-38" target="H15oAr5Qgit-XZydFjF4-37">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1170" y="570" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="950" y="740" />
-              <mxPoint x="1080" y="740" />
-              <mxPoint x="1080" y="560" />
+              <mxPoint x="950" y="780" />
+              <mxPoint x="1080" y="780" />
+              <mxPoint x="1080" y="650" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -777,7 +777,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="H15oAr5Qgit-XZydFjF4-38" value="reorganize the logs to a map&amp;nbsp;&lt;br&gt;orderID &amp;lt;=&amp;gt; gps tracks" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="860" y="630" width="180" height="70" as="geometry" />
+          <mxGeometry x="860" y="695" width="180" height="70" as="geometry" />
         </mxCell>
         <mxCell id="H15oAr5Qgit-XZydFjF4-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=none;startFill=0;" edge="1" parent="1" source="H15oAr5Qgit-XZydFjF4-39" target="H15oAr5Qgit-XZydFjF4-40">
           <mxGeometry relative="1" as="geometry" />
@@ -834,7 +834,7 @@
           <mxGeometry x="900" y="1100" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H15oAr5Qgit-XZydFjF4-58" value="calculate the average speed for each way on each time-window" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="860" y="1460" width="180" height="70" as="geometry" />
+          <mxGeometry x="860" y="1440" width="180" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
