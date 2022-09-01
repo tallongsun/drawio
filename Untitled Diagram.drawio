@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-01T05:39:55.869Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="_OCdfue4o3WRzsDT6Jzc" version="20.1.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-01T05:40:19.984Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="MWxPAMez5NDT32ZMvE1G" version="20.1.1" type="github" pages="4">
   <diagram id="Pxa_HsvwUJAu8bl7tLUJ" name="Page-1">
     <mxGraphModel dx="3667" dy="1846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -450,6 +450,12 @@
           <mxGeometry x="0.1035" y="-2" relative="1" as="geometry">
             <mxPoint x="-19" y="66" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="aZC4WHYjED7qaJhN-ZKi-47" value="餐品A名字" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-1580" y="610" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aZC4WHYjED7qaJhN-ZKi-48" value="餐品A别名" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-1480" y="610" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
