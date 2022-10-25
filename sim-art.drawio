@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T07:34:10.293Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="oazitN4HyISaVQsuJWbe" version="20.2.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-25T07:34:43.669Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="P9nwEO2nbCtAb93sl_4m" version="20.2.7" type="github" pages="3">
   <diagram id="ia3cM24sSWGql7qwmMW_" name="Seq">
     <mxGraphModel dx="1186" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -730,6 +730,11 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="220" as="sourcePoint" />
             <mxPoint x="490" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZA_vWXEYMnr4DkRGCITe-23" value="pre-aggregate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZA_vWXEYMnr4DkRGCITe-8">
+          <mxGeometry x="-0.0726" y="-1" relative="1" as="geometry">
+            <mxPoint x="11" y="-15" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZA_vWXEYMnr4DkRGCITe-14" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#D45B07;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.ecs_task;" vertex="1" parent="1">
