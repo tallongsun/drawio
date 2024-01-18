@@ -1,4 +1,4 @@
-<mxfile modified="2024-01-18T03:18:49.935Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="qaH419M8LkgyTiWB7WyR" version="22.1.21" type="github" pages="2">
+<mxfile modified="2024-01-18T03:21:29.975Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="OEfxLWop34-FKDfOqUef" version="22.1.21" type="github" pages="2">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1306" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -424,11 +424,32 @@
         <mxCell id="I0PsVAg70TUa4E0ZsMhH-10" value="Evaluation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="800" y="200" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="I0PsVAg70TUa4E0ZsMhH-11" value="Serving" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="960" y="200" width="120" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="I0PsVAg70TUa4E0ZsMhH-12" value="Rollout" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1121" y="201.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I0PsVAg70TUa4E0ZsMhH-13" value="SP" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.user_group" vertex="1" parent="1">
+          <mxGeometry x="70" y="280" width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="I0PsVAg70TUa4E0ZsMhH-14" value="FP" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.user_group" vertex="1" parent="1">
+          <mxGeometry x="70" y="360" width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="I0PsVAg70TUa4E0ZsMhH-15" value="Requirement" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="277" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I0PsVAg70TUa4E0ZsMhH-16" value="Develop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I0PsVAg70TUa4E0ZsMhH-17" value="Simulation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="278.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I0PsVAg70TUa4E0ZsMhH-18" value="Evaluation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I0PsVAg70TUa4E0ZsMhH-19" value="Feature Engineering" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="358.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I0PsVAg70TUa4E0ZsMhH-20" value="Serving" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="358.5" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
