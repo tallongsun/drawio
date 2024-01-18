@@ -1,4 +1,4 @@
-<mxfile modified="2024-01-18T04:31:01.540Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="hyPkRZq_TRs9bWSm1lic" version="22.1.21" type="github" pages="2">
+<mxfile modified="2024-01-18T04:34:21.948Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="KnXjwSlL1aTLpRAYywBf" version="22.1.21" type="github" pages="2">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1306" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -406,14 +406,23 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="I0PsVAg70TUa4E0ZsMhH-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="I0PsVAg70TUa4E0ZsMhH-1" target="I0PsVAg70TUa4E0ZsMhH-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I0PsVAg70TUa4E0ZsMhH-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="I0PsVAg70TUa4E0ZsMhH-1" target="I0PsVAg70TUa4E0ZsMhH-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="I0PsVAg70TUa4E0ZsMhH-1" value="Requirement" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="I0PsVAg70TUa4E0ZsMhH-4" value="AI" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.user_group" vertex="1" parent="1">
           <mxGeometry x="70" y="203" width="50" height="37" as="geometry" />
         </mxCell>
+        <mxCell id="I0PsVAg70TUa4E0ZsMhH-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I0PsVAg70TUa4E0ZsMhH-7" target="I0PsVAg70TUa4E0ZsMhH-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="I0PsVAg70TUa4E0ZsMhH-7" value="Feature Engineering" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="201.5" width="120" height="40" as="geometry" />
+          <mxGeometry x="320" y="200.5" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="I0PsVAg70TUa4E0ZsMhH-8" value="Model" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="200" width="120" height="40" as="geometry" />
@@ -433,8 +442,11 @@
         <mxCell id="I0PsVAg70TUa4E0ZsMhH-14" value="FP" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.user_group" vertex="1" parent="1">
           <mxGeometry x="70" y="362" width="50" height="37" as="geometry" />
         </mxCell>
+        <mxCell id="I0PsVAg70TUa4E0ZsMhH-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I0PsVAg70TUa4E0ZsMhH-15" target="I0PsVAg70TUa4E0ZsMhH-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="I0PsVAg70TUa4E0ZsMhH-15" value="Requirement" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="277" width="120" height="40" as="geometry" />
+          <mxGeometry x="160" y="280" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="I0PsVAg70TUa4E0ZsMhH-16" value="Develop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="280" width="280" height="40" as="geometry" />
@@ -462,7 +474,7 @@
         </mxCell>
         <mxCell id="I0PsVAg70TUa4E0ZsMhH-27" value="Requirement &lt;br&gt;&amp;amp; Roadmap" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="I0PsVAg70TUa4E0ZsMhH-26">
           <mxGeometry x="-0.2415" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I0PsVAg70TUa4E0ZsMhH-28" value="DE" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.user_group" vertex="1" parent="1">
@@ -475,6 +487,24 @@
           <mxGeometry x="-0.0441" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="I0PsVAg70TUa4E0ZsMhH-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.05;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="I0PsVAg70TUa4E0ZsMhH-22" target="I0PsVAg70TUa4E0ZsMhH-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-30" y="222" />
+              <mxPoint x="-30" y="139" />
+              <mxPoint x="73" y="139" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I0PsVAg70TUa4E0ZsMhH-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I0PsVAg70TUa4E0ZsMhH-37" target="I0PsVAg70TUa4E0ZsMhH-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I0PsVAg70TUa4E0ZsMhH-37" value="Requirement" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="118" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I0PsVAg70TUa4E0ZsMhH-38" value="Develop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="119" width="750" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
