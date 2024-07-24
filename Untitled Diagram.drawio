@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-24T08:42:01.449Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="PE7NvOsIVY3J6E8QQvRm" version="24.3.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-07-24T08:43:39.008Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="U7b2jnIuz0QwayY9RuMG" version="24.3.1" type="github" pages="7">
   <diagram id="Pxa_HsvwUJAu8bl7tLUJ" name="Page-1">
     <mxGraphModel dx="4027" dy="1899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1612,7 +1612,7 @@
             <mxPoint x="380" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wikc8-z1ekMaVG7MbToZ-9" value="司机实时位置匹配" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wikc8-z1ekMaVG7MbToZ-8">
+        <mxCell id="wikc8-z1ekMaVG7MbToZ-9" value="司机实时位置匹配(grpc)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wikc8-z1ekMaVG7MbToZ-8">
           <mxGeometry x="-0.0917" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1623,7 +1623,7 @@
             <mxPoint x="440" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wikc8-z1ekMaVG7MbToZ-21" value="table/route" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wikc8-z1ekMaVG7MbToZ-10">
+        <mxCell id="wikc8-z1ekMaVG7MbToZ-21" value="table/route(http)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wikc8-z1ekMaVG7MbToZ-10">
           <mxGeometry x="0.1644" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1662,9 +1662,106 @@
             <mxPoint x="570" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wikc8-z1ekMaVG7MbToZ-23" value="计算trip真实距离&lt;br&gt;&amp;amp;偏航检测" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wikc8-z1ekMaVG7MbToZ-22">
+        <mxCell id="wikc8-z1ekMaVG7MbToZ-23" value="计算trip真实距离&lt;br&gt;&amp;amp;偏航检测(http)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wikc8-z1ekMaVG7MbToZ-22">
           <mxGeometry x="0.1644" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wikc8-z1ekMaVG7MbToZ-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="670" width="410" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="wikc8-z1ekMaVG7MbToZ-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="670" width="410" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="wikc8-z1ekMaVG7MbToZ-26" value="routing-service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wikc8-z1ekMaVG7MbToZ-27" value="driver-tracking" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wikc8-z1ekMaVG7MbToZ-28" value="matching-service(offline map matching)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wikc8-z1ekMaVG7MbToZ-29" value="map-service(table/route)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wikc8-z1ekMaVG7MbToZ-30" value="map-api-gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wikc8-z1ekMaVG7MbToZ-31" value="map-tracker(realtime map matching)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wikc8-z1ekMaVG7MbToZ-32" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="wikc8-z1ekMaVG7MbToZ-30" target="wikc8-z1ekMaVG7MbToZ-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="990" as="sourcePoint" />
+            <mxPoint x="440" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wikc8-z1ekMaVG7MbToZ-33" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="wikc8-z1ekMaVG7MbToZ-27" target="wikc8-z1ekMaVG7MbToZ-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="1040" as="sourcePoint" />
+            <mxPoint x="380" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wikc8-z1ekMaVG7MbToZ-34" value="司机实时位置匹配" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wikc8-z1ekMaVG7MbToZ-33">
+          <mxGeometry x="-0.0917" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wikc8-z1ekMaVG7MbToZ-35" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wikc8-z1ekMaVG7MbToZ-26" target="wikc8-z1ekMaVG7MbToZ-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="990" as="sourcePoint" />
+            <mxPoint x="440" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wikc8-z1ekMaVG7MbToZ-36" value="table/route" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wikc8-z1ekMaVG7MbToZ-35">
+          <mxGeometry x="0.1644" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wikc8-z1ekMaVG7MbToZ-37" value="driver-distribution" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="104" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wikc8-z1ekMaVG7MbToZ-38" value="pricing-engine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="104" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wikc8-z1ekMaVG7MbToZ-39" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wikc8-z1ekMaVG7MbToZ-38" target="wikc8-z1ekMaVG7MbToZ-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="484" y="990" as="sourcePoint" />
+            <mxPoint x="534" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wikc8-z1ekMaVG7MbToZ-40" value="route" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wikc8-z1ekMaVG7MbToZ-39">
+          <mxGeometry x="-0.2006" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wikc8-z1ekMaVG7MbToZ-41" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wikc8-z1ekMaVG7MbToZ-37" target="wikc8-z1ekMaVG7MbToZ-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="234" y="933" as="sourcePoint" />
+            <mxPoint x="314" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wikc8-z1ekMaVG7MbToZ-42" value="table" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wikc8-z1ekMaVG7MbToZ-41">
+          <mxGeometry x="-0.3059" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wikc8-z1ekMaVG7MbToZ-43" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wikc8-z1ekMaVG7MbToZ-26" target="wikc8-z1ekMaVG7MbToZ-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424" y="910" as="sourcePoint" />
+            <mxPoint x="570" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wikc8-z1ekMaVG7MbToZ-44" value="计算trip真实距离&lt;br&gt;&amp;amp;偏航检测" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wikc8-z1ekMaVG7MbToZ-43">
+          <mxGeometry x="0.1644" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wikc8-z1ekMaVG7MbToZ-45" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wikc8-z1ekMaVG7MbToZ-30" target="wikc8-z1ekMaVG7MbToZ-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="1060" as="sourcePoint" />
+            <mxPoint x="780" y="1060" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
