@@ -1150,10 +1150,10 @@
         <mxCell id="fdgYiA0Kqeu7Bm6abbkq-46" value="AlgorithmPart" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#FF9933;" vertex="1" parent="fdgYiA0Kqeu7Bm6abbkq-1">
           <mxGeometry x="750" y="780" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="fdgYiA0Kqeu7Bm6abbkq-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="fdgYiA0Kqeu7Bm6abbkq-1" source="fdgYiA0Kqeu7Bm6abbkq-8">
+        <mxCell id="fdgYiA0Kqeu7Bm6abbkq-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="fdgYiA0Kqeu7Bm6abbkq-1" source="fdgYiA0Kqeu7Bm6abbkq-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="570" y="160" as="sourcePoint" />
-            <mxPoint x="210" y="80" as="targetPoint" />
+            <mxPoint x="220" y="80" as="targetPoint" />
             <Array as="points">
               <mxPoint x="600" y="80" />
               <mxPoint x="400" y="80" />
@@ -1175,9 +1175,10 @@
         <mxCell id="fdgYiA0Kqeu7Bm6abbkq-52" value="restaurant&lt;br&gt;stat" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.documents;fillColor=#99FF99;" vertex="1" parent="fdgYiA0Kqeu7Bm6abbkq-1">
           <mxGeometry x="82.5" y="85" width="22.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Da7IhLaqQ65pf4uoJUGg-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fdgYiA0Kqeu7Bm6abbkq-1" source="fdgYiA0Kqeu7Bm6abbkq-53">
+        <mxCell id="Da7IhLaqQ65pf4uoJUGg-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fdgYiA0Kqeu7Bm6abbkq-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="178.70000000000005" y="190" as="targetPoint" />
+            <mxPoint x="178" y="131" as="sourcePoint" />
+            <mxPoint x="178.70000000000005" y="191" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fdgYiA0Kqeu7Bm6abbkq-53" value="Verda IU" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://d34478bzukvagl.cloudfront.net/icon/11cfbe30ac00ef945bb5bd8aa98993b4-431a00fa0a3fe5498b8c01ec091c65db.svg;" vertex="1" parent="fdgYiA0Kqeu7Bm6abbkq-1">
