@@ -974,6 +974,18 @@
         <mxCell id="OPm6D8R7vjGMFarAgIZE-4" value="rider &lt;br&gt;on-off" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.documents;fillColor=#99FF99;" vertex="1" parent="OPm6D8R7vjGMFarAgIZE-0">
           <mxGeometry x="140" y="10" width="22.5" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="I8m-2161ny1c6XM7QDwT-0" value="" style="swimlane;startSize=0;" vertex="1" parent="cOlbWQe6OG9gghR0qoTn-1">
+          <mxGeometry x="499.75" y="250" width="170.25" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I8m-2161ny1c6XM7QDwT-1" value="&lt;div&gt;Simulated&lt;/div&gt;&lt;div&gt;Data&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="I8m-2161ny1c6XM7QDwT-0">
+          <mxGeometry x="10" y="12.5" width="60" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="I8m-2161ny1c6XM7QDwT-2" value="raw &lt;br&gt;rider" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.documents;fillColor=#99FF99;" vertex="1" parent="I8m-2161ny1c6XM7QDwT-0">
+          <mxGeometry x="130" y="10" width="22.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I8m-2161ny1c6XM7QDwT-3" value="raw &lt;br&gt;order" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.documents;fillColor=#99FF99;" vertex="1" parent="I8m-2161ny1c6XM7QDwT-0">
+          <mxGeometry x="83.5" y="10" width="22.5" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
