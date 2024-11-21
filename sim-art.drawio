@@ -1101,7 +1101,7 @@
             <mxPoint x="473.5277777777778" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fdgYiA0Kqeu7Bm6abbkq-29" value="7.1 save &lt;br&gt;order &amp;amp; rider&lt;br&gt;&amp;nbsp;result" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fdgYiA0Kqeu7Bm6abbkq-28">
+        <mxCell id="fdgYiA0Kqeu7Bm6abbkq-29" value="6.1 async save &lt;br&gt;order &amp;amp; rider&lt;br&gt;&amp;nbsp;result" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fdgYiA0Kqeu7Bm6abbkq-28">
           <mxGeometry x="0.3356" y="-1" relative="1" as="geometry">
             <mxPoint x="14" y="56" as="offset" />
           </mxGeometry>
