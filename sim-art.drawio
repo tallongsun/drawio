@@ -1308,11 +1308,6 @@
             <mxPoint x="539" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fjDTdiLL01zIfCUlZNcc-1" value="6. save simulation status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fjDTdiLL01zIfCUlZNcc-0">
-          <mxGeometry x="0.5916" y="-2" relative="1" as="geometry">
-            <mxPoint x="9" y="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
