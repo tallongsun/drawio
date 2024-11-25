@@ -1436,9 +1436,6 @@
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-11" value="Raw&amp;nbsp;&lt;div&gt;OSM&amp;nbsp;&lt;/div&gt;&lt;div&gt;Data&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
           <mxGeometry x="430" y="160" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-12" value="AirFlow" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="60" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Aagwnyqa5bFxSTO2Q8ux-10" target="Aagwnyqa5bFxSTO2Q8ux-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="580" as="sourcePoint" />
