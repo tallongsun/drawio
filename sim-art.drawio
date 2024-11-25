@@ -1415,6 +1415,105 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-1" value="Traffic Model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-2" value="Driver Trajectory Data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="300" y="160" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-7" value="Routing Engine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-8" value="Map Compiling" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-10" value="Toll&amp;nbsp;&lt;div&gt;Data&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="520" y="160" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-11" value="Raw&amp;nbsp;&lt;div&gt;OSM&amp;nbsp;&lt;/div&gt;&lt;div&gt;Data&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="440" y="160" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-12" value="AirFlow" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Aagwnyqa5bFxSTO2Q8ux-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="580" as="sourcePoint" />
+            <mxPoint x="510" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-14" value="Merged OSM&amp;nbsp;&lt;div&gt;Data&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="480" y="300" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Aagwnyqa5bFxSTO2Q8ux-11" target="Aagwnyqa5bFxSTO2Q8ux-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="496" y="250" as="sourcePoint" />
+            <mxPoint x="520" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-16" value="Traffic&lt;br&gt;Model&amp;nbsp;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="300" y="300" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Aagwnyqa5bFxSTO2Q8ux-11" target="Aagwnyqa5bFxSTO2Q8ux-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="250" as="sourcePoint" />
+            <mxPoint x="520" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Aagwnyqa5bFxSTO2Q8ux-2" target="Aagwnyqa5bFxSTO2Q8ux-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="260" as="sourcePoint" />
+            <mxPoint x="530" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-19" value="&lt;div&gt;Routing&lt;/div&gt;Profile" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="560" y="300" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-20" value="Extract" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-21" value="Contract" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.617;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.033;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Aagwnyqa5bFxSTO2Q8ux-16" target="Aagwnyqa5bFxSTO2Q8ux-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="250" as="sourcePoint" />
+            <mxPoint x="340" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aagwnyqa5bFxSTO2Q8ux-14" target="Aagwnyqa5bFxSTO2Q8ux-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="260" as="sourcePoint" />
+            <mxPoint x="350" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aagwnyqa5bFxSTO2Q8ux-19" target="Aagwnyqa5bFxSTO2Q8ux-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="270" as="sourcePoint" />
+            <mxPoint x="360" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Aagwnyqa5bFxSTO2Q8ux-20" target="Aagwnyqa5bFxSTO2Q8ux-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="390" as="sourcePoint" />
+            <mxPoint x="550" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-27" value="Traffic&lt;br&gt;Model&amp;nbsp;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="250" y="640" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-28" value="Evaluate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-29" value="Map Api Gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-30" value="Map Tracker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-31" value="Geocoding" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
