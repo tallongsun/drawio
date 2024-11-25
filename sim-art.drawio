@@ -1430,13 +1430,13 @@
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-1" value="Traffic Model" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="220" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-2" value="Driver Trajectory Data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-2" value="Driver Trajectory Data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="250" y="160" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-10" value="Toll&amp;nbsp;&lt;div&gt;Data&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-10" value="Toll&amp;nbsp;&lt;div&gt;Data&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="520" y="160" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-11" value="Raw&amp;nbsp;&lt;div&gt;OSM&amp;nbsp;&lt;/div&gt;&lt;div&gt;Data&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-11" value="Raw&amp;nbsp;&lt;div&gt;OSM&amp;nbsp;&lt;/div&gt;&lt;div&gt;Data&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="430" y="160" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Aagwnyqa5bFxSTO2Q8ux-10" target="Aagwnyqa5bFxSTO2Q8ux-14">
@@ -1445,7 +1445,7 @@
             <mxPoint x="510" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-14" value="Merged OSM&amp;nbsp;&lt;div&gt;Data&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-14" value="Merged OSM&amp;nbsp;&lt;div&gt;Data&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="470" y="320" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Aagwnyqa5bFxSTO2Q8ux-11" target="Aagwnyqa5bFxSTO2Q8ux-14">
@@ -1466,10 +1466,10 @@
             <mxPoint x="530" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-20" value="Extract" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-20" value="Extract" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="380" y="490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-21" value="Contract" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-21" value="Contract" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="380" y="580" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.017;entryY=0.117;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Aagwnyqa5bFxSTO2Q8ux-1" target="Aagwnyqa5bFxSTO2Q8ux-21">
@@ -1490,7 +1490,7 @@
             <mxPoint x="530" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-28" value="Evaluate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-28" value="Evaluate" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="770" y="670" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-29" value="Map Api Gateway" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#FF3333;" vertex="1" parent="1">
@@ -1499,10 +1499,10 @@
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="170" y="480" width="150" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-32" value="Extract" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-32" value="Extract" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="180" y="490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-33" value="Import" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-33" value="Import" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="770" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-34" value="Matching" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
@@ -1604,10 +1604,10 @@
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-58" value="Map&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Tracker&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="230" y="615" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-59" value="Evaluate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-59" value="Evaluate" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="380" y="670" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-60" value="Evaluate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-60" value="Evaluate" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="185" y="670" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-61" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Aagwnyqa5bFxSTO2Q8ux-59" target="Aagwnyqa5bFxSTO2Q8ux-35">
@@ -1619,13 +1619,13 @@
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-63" value="Map Compling" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="775" y="345" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-66" value="POI&amp;nbsp;&lt;div&gt;Data&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-66" value="POI&amp;nbsp;&lt;div&gt;Data&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="660" y="160" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-67" value="POI checker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-67" value="POI checker" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="630" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-68" value="Map Editor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-68" value="Map Editor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="490" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-69" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Aagwnyqa5bFxSTO2Q8ux-66" target="Aagwnyqa5bFxSTO2Q8ux-67">
