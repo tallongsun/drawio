@@ -1415,6 +1415,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-72" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="15" width="310" height="110" as="geometry" />
+        </mxCell>
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="120" y="140" width="840" height="620" as="geometry" />
         </mxCell>
@@ -1618,6 +1621,24 @@
         </mxCell>
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-66" value="POI&amp;nbsp;&lt;div&gt;Data&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
           <mxGeometry x="660" y="160" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-67" value="POI checker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-68" value="Map Editor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-69" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Aagwnyqa5bFxSTO2Q8ux-66" target="Aagwnyqa5bFxSTO2Q8ux-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="543" y="250" as="sourcePoint" />
+            <mxPoint x="510" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-73" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="Aagwnyqa5bFxSTO2Q8ux-68" target="Aagwnyqa5bFxSTO2Q8ux-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="170" as="sourcePoint" />
+            <mxPoint x="700" y="110" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
