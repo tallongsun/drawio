@@ -1587,16 +1587,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-49" value="Driver Tracking" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="920" width="120" height="60" as="geometry" />
+          <mxGeometry x="180" y="940" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-50" value="Pricing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="920" width="120" height="60" as="geometry" />
+          <mxGeometry x="380" y="940" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-51" value="Driver Distribution" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="920" width="120" height="60" as="geometry" />
+          <mxGeometry x="540" y="940" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-52" value="Seeker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="770" y="920" width="120" height="60" as="geometry" />
+          <mxGeometry x="770" y="940" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
