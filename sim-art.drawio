@@ -1425,10 +1425,10 @@
           <mxGeometry x="360" y="480" width="350" height="400" as="geometry" />
         </mxCell>
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-1" value="Traffic Model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="140" width="120" height="60" as="geometry" />
+          <mxGeometry x="220" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-2" value="Driver Trajectory Data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="280" y="160" width="60" height="80" as="geometry" />
+          <mxGeometry x="250" y="160" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-10" value="Toll&amp;nbsp;&lt;div&gt;Data&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
           <mxGeometry x="520" y="160" width="60" height="80" as="geometry" />
@@ -1454,16 +1454,13 @@
             <mxPoint x="520" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-16" value="Traffic&lt;br&gt;Model&amp;nbsp;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
-          <mxGeometry x="280" y="320" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Aagwnyqa5bFxSTO2Q8ux-11" target="Aagwnyqa5bFxSTO2Q8ux-16">
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aagwnyqa5bFxSTO2Q8ux-11" target="Aagwnyqa5bFxSTO2Q8ux-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="250" as="sourcePoint" />
-            <mxPoint x="520" y="310" as="targetPoint" />
+            <mxPoint x="280" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Aagwnyqa5bFxSTO2Q8ux-2" target="Aagwnyqa5bFxSTO2Q8ux-16">
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aagwnyqa5bFxSTO2Q8ux-2" target="Aagwnyqa5bFxSTO2Q8ux-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="490" y="260" as="sourcePoint" />
             <mxPoint x="530" y="320" as="targetPoint" />
@@ -1475,9 +1472,9 @@
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-21" value="Contract" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="580" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.617;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.017;entryY=0.117;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Aagwnyqa5bFxSTO2Q8ux-16" target="Aagwnyqa5bFxSTO2Q8ux-21">
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.017;entryY=0.117;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Aagwnyqa5bFxSTO2Q8ux-1" target="Aagwnyqa5bFxSTO2Q8ux-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="250" as="sourcePoint" />
+            <mxPoint x="287" y="429" as="sourcePoint" />
             <mxPoint x="340" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
