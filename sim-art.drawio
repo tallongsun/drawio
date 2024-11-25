@@ -1617,7 +1617,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-63" value="Map Compling" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="770" y="230" width="60" height="30" as="geometry" />
+          <mxGeometry x="770" y="230" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-66" value="POI&amp;nbsp;&lt;div&gt;Data&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
           <mxGeometry x="660" y="160" width="60" height="80" as="geometry" />
