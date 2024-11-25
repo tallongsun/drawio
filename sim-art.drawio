@@ -1502,16 +1502,16 @@
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-33" value="Import" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="770" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-34" value="Matching" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-34" value="Matching" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="180" y="780" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-35" value="Route" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-35" value="Route" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="380" y="780" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-36" value="Table" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-36" value="Table" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="540" y="780" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-37" value="Reverse Geocoding" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-37" value="Reverse Geocoding" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="770" y="780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Aagwnyqa5bFxSTO2Q8ux-11" target="Aagwnyqa5bFxSTO2Q8ux-32">
@@ -1615,6 +1615,9 @@
         </mxCell>
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-63" value="Map Compling" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="770" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-66" value="POI&amp;nbsp;&lt;div&gt;Data&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="660" y="160" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
