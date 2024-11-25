@@ -1415,7 +1415,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-72" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-72" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="470" y="15" width="310" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -1639,6 +1639,9 @@
             <mxPoint x="700" y="170" as="sourcePoint" />
             <mxPoint x="700" y="110" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-75" value="Map Making" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="582.5" y="10" width="85" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
