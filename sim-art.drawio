@@ -1415,8 +1415,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-88" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="990" height="125" as="geometry" />
+        </mxCell>
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-83" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="135" width="990" height="145" as="geometry" />
+          <mxGeometry x="20" y="135" width="990" height="125" as="geometry" />
         </mxCell>
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-82" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="260" width="990" height="510" as="geometry" />
@@ -1684,6 +1687,9 @@
         </mxCell>
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-87" value="Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="135" width="70" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-89" value="Tool" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="70" height="125" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
