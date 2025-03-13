@@ -2003,7 +2003,7 @@
         <mxCell id="ONUDX1HwMTyAuwyPCoN7-70" value="用shortest或者fastest都可以找到2条路线的情况" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="100" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ONUDX1HwMTyAuwyPCoN7-71" value="用shortest或fastest无法无法找到2条路线的情况" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ONUDX1HwMTyAuwyPCoN7-71" value="用shortest或fastest无法无法找到2条路线的情况。Cell的划分不同导致的" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="850" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
