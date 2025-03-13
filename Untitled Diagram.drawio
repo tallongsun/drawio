@@ -2000,7 +2000,7 @@
             <mxPoint x="290" y="1445" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ONUDX1HwMTyAuwyPCoN7-70" value="可以找到2条路线的情况" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ONUDX1HwMTyAuwyPCoN7-70" value="用shortest或者fastest都可以找到2条路线的情况" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="100" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ONUDX1HwMTyAuwyPCoN7-71" value="无法找到2条路线的情况" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
