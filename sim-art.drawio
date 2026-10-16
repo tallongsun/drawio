@@ -1679,7 +1679,7 @@
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-154" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Compiling" vertex="1">
           <mxGeometry height="510" width="70" x="20" y="260" as="geometry" />
         </mxCell>
-        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-155" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Data" vertex="1">
+        <mxCell id="Aagwnyqa5bFxSTO2Q8ux-155" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Raw Data" vertex="1">
           <mxGeometry height="125" width="70" x="20" y="135" as="geometry" />
         </mxCell>
         <mxCell id="Aagwnyqa5bFxSTO2Q8ux-156" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Making" vertex="1">
